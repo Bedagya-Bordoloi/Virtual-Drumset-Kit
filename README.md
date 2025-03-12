@@ -4,8 +4,19 @@
 
 An interactive virtual drumset that lets you play drums in mid-air using hand tracking technology. Combines computer vision with real-time audio feedback to create an immersive musical experience.
 
-## 🎯 Key Features
+## 📖 Table of Contents
+- [Key Features](#-key-features)
+- [Project Structure](#-project-structure)
+- [Technology Stack](#-technology-stack)
+- [System Workflow](#-system-workflow)
+- [Target Audience](#-target-audience)
+- [Value Proposition](#-value-proposition)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Customization](#-customization)
+- [License](#-license)
 
+## 🎯 Key Features
 - **Real-Time Hand Tracking**: MediaPipe's BlazePalm model with 21 landmark points per hand
 - **Virtual Drum Interface**: 5 customizable drum pads (kick, snare, hihat, crash, tom)
 - **Low-Latency Audio**: Pygame mixer with optimized WAV file playback (<50ms latency)
@@ -17,8 +28,7 @@ An interactive virtual drumset that lets you play drums in mid-air using hand tr
 - **Mirror Mode**: Horizontal flip for natural playing experience
 - **Cross-Platform**: Compatible with Windows, macOS, and Linux
 
-## 📁 Project Files and Functionality
-
+## 📁 Project Structure
 ### `handtrackingmodule.py` (Core Tracking Engine)
 **Purpose**: Hand detection and landmark processing module  
 **Functionality**:
@@ -48,8 +58,7 @@ An interactive virtual drumset that lets you play drums in mid-air using hand tr
 - **Collision Engine**: Index finger tip position validation
 - **UI Renderer**: Dynamic pad highlighting and labels
 
-## 🛠️ Underlying Technologies
-
+## 🛠️ Technology Stack
 | Technology | Purpose | Version |
 |------------|---------|---------|
 | Python | Core programming language | 3.8+ |
@@ -58,8 +67,7 @@ An interactive virtual drumset that lets you play drums in mid-air using hand tr
 | Pygame | Audio playback & mixing | 2.5.2+ |
 | NumPy | Coordinate calculations | 1.24+ |
 
-## 🔄 Workflow
-
+## 🔄 System Workflow
 ```mermaid
 sequenceDiagram
     participant Webcam
