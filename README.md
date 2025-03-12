@@ -1,4 +1,4 @@
-# Real-Time Virtual Air Drumset Kit
+# Real-Time Virtual Drumset Kit
 
 **Description:**
 
